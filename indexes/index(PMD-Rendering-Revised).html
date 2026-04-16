@@ -1733,9 +1733,9 @@
     // Parameters
     const parameters = {
         camera: {
-            minY: -2,
+            minY: -0.5,
             maxZoomOut: 1000,
-            startPosition: { x: 0.2, y: 0.55, z: 2.8 },
+            startPosition: { x: 0.155113, y: 0.40534, z: 1.938917 },
         },
         scene: {
             origin: { x: 0, y: -0.06, z: 0 },
@@ -1792,11 +1792,11 @@
             radius: 0.8
         },
         maxDistance: {
-            base: 8.2,
-            responsiveness: 1.4
+            base: 5,
+            responsiveness: 0
         },
         developerMode: false,  // Set this to true to activate developer mode
-        developerToolsVisible: true,  // Editor buttons (splat, lot, animation) in top right
+        developerToolsVisible: false,  // Editor buttons (splat, lot, animation) in top right
         splatEditor: {
             enabled: true,
             defaultOpen: false
@@ -2017,10 +2017,10 @@
                 scale: 1
             },
             view: {
-                startPosition: { x: 0.22, y: 0.6, z: 2.75 },
+                startPosition: { x: 0.155113, y: 0.40534, z: 1.938917 },
                 target: { x: 0, y: -0.06, z: 0 },
                 minDistance: 0.65,
-                maxDistance: 10.4,
+                maxDistance: 5,
                 minPolarAngle: 14,
                 maxPolarAngle: 179,  // allow camera to orbit below target (descend into canyons) down to minY
                 northDirection: 358
