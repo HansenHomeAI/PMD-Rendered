@@ -37,6 +37,18 @@ Open:
 http://127.0.0.1:4173/indexes/index(PMD-Rendering-Revised).html
 ```
 
+## Version control and asset hosting
+
+- GitHub repo: `https://github.com/HansenHomeAI/PMD-Rendered` (private)
+- S3 bucket: `pmd-rendered-assets-975050048887-us-west-2`
+- CloudFront distribution: `https://d2w18qmhg1cmak.cloudfront.net/renderings/`
+
+Hosted GLBs:
+
+- `https://d2w18qmhg1cmak.cloudfront.net/renderings/Terrain-Fixed-Comp.glb`
+- `https://d2w18qmhg1cmak.cloudfront.net/renderings/Buildings-Fixed-Comp.glb`
+- `https://d2w18qmhg1cmak.cloudfront.net/renderings/Cutout-optimized.glb`
+
 ## Hosting implication
 
 If you want to self-host the full experience, hosting just the HTML and GLBs is not enough. The splat data and several runtime dependencies are still third-party hosted and would need to be mirrored or replaced.
